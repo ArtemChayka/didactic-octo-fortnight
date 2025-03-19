@@ -1,0 +1,34 @@
+.hero {
+    background-color: gainsboro;
+    background-image: url(/img/people-office-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-title {
+    font-size: 32px;
+    color: white;
+}
+.hero-text{
+    color: aquamarine;
+}
+.hero-list-item{
+    color: aqua;
+}
+.hero-link {
+    color: dodgerblue;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: oblique;
+    font-style: italic;
+}
+.hero img {
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 2x) {
+    .hero {
+    background-color: rgb(245, 168, 168);
+    background-image: url(/img/people-office-desktop@2x.jpg);
+}
+}
